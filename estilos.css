@@ -1,14 +1,15 @@
 html {
-  background-color: rgb(122, 120, 117);
+  background-color: rgb(252, 252, 252);
   /*background: linear-gradient(to bottom, #000000, #696964);*/
 }
 body {
   font-family: "Roboto", sans-serif;
 }
 footer {
-  margin-top: 250px;
+  background-color: rgb(88, 84, 84);
+  /*margin-top: 50%;*/
   border-top: solid black;
-  padding-top: 50px;
+  padding-top: 15%;
 }
 
 h2 {
@@ -112,7 +113,7 @@ Nav
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 25px;
-  color: white;
+  color: rgb(247, 123, 8);
   font-style: italic;
   
 }
@@ -193,6 +194,13 @@ flex-wrap: wrap;
 -ms-flex-align: end;
 }
 */
+
+/*Redes*/
+
+.redes{
+  display: flex;
+  
+}
 
 /*MEDIA QUERIES*/
 
