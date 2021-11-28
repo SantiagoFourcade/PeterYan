@@ -90,8 +90,8 @@ Nav
 .navItem:hover {
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
-.navImput:checked + .navMenu {
-}
+/*.navImput:checked + .navMenu {
+}*/
 
 .navLabel,
 .navInput {
