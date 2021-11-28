@@ -1,0 +1,139 @@
+body {
+}
+.nav {
+  background-color: black;
+  height: 80px;
+  color: white;
+}
+.navContainer {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLogo {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.navMenu {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3rem;
+}
+.navItem {
+  color: white;
+  text-decoration: none;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  
+}
+.navItem::after {
+  content: "";
+  display: block;
+  background-color: white;
+  width: 90%;
+  margin-top: 3px;
+  height: 3px;
+  clip-path: var(--clippy);
+  transition: clip-path 0.3s;
+}
+.navItem:hover{
+    --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%)
+}
+.navImput:checked + .navMenu {
+}
+
+.navLabel,
+.navInput {
+  display: none;
+}
+
+/*Contacto*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(87, 82, 82);
+  color: white;
+  padding: 0 1.5rem;
+}
+.content{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+
+}
+.logo{
+  text-align: center;
+  font-size: 3rem;
+
+}
+.logo span{
+  color: red;
+}
+.contact-wrapper{
+ box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3); 
+}
+.contact-wrapper > * {
+  padding: 1rem;
+}
+
+.contact-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-form form .block{
+grid-column: 1 / 3;
+}
+
+.contact-form form p{
+  margin: 0;
+  padding: 1rem;
+}
+.contact-form form button, .contact-form form input, .contact-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  background: none;
+  outline: 0;
+  color: white;
+  border-bottom: 1px solid red;
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+   .navLabel{
+       display: block;
+       cursor: pointer;
+   }
+    .navMenu{
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        background-color: orange;
+        width: 100%;
+        left: 0%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+
+    }
+    .navImput:checked + .navMenu {
+        clip-path: circle(100% at center);
+    }
+}
