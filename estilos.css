@@ -7,9 +7,9 @@ body {
 }
 footer {
   background-color: rgb(88, 84, 84);
-  /*margin-top: 50%;*/
+  margin-top: 25%;
   border-top: solid black;
-  padding-top: 15%;
+  padding-top: 5%;
 }
 
 h2 {
@@ -197,10 +197,7 @@ flex-wrap: wrap;
 
 /*Redes*/
 
-.redes{
-  display: flex;
-  
-}
+
 
 /*MEDIA QUERIES*/
 
