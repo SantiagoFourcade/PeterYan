@@ -6,10 +6,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 footer {
-  background-color: rgb(88, 84, 84);
   margin-top: 25%;
-  border-top: solid black;
-  padding-top: 5%;
+
+  padding-top: 0%;
 }
 
 h2 {
@@ -115,12 +114,9 @@ Nav
   font-size: 25px;
   color: rgb(247, 123, 8);
   font-style: italic;
-  
 }
 
 /*Contacto*/
-
-
 
 /*Biografia y Entrevista*/
 
@@ -130,8 +126,6 @@ Nav
   display: grid;
   grid-template-columns: repeat(2, 4fr);
   grid-gap: 50px;
-
-  
 }
 .containerEntrevista {
   width: 100%;
@@ -139,8 +133,6 @@ Nav
   display: grid;
   grid-template-columns: repeat(2, 9fr);
   grid-gap: 50px;
-
-  
 }
 
 /*Mini Galeriia Index*/
@@ -179,7 +171,7 @@ img {
   transition: 0.5s filter;
 }
 .galeriaItem:hover {
-  filter:brightness(0.3);
+  filter: brightness(0.3);
 }
 .galeriaItem:first-of-type {
   grid-column: 2 / span 2;
@@ -196,8 +188,6 @@ flex-wrap: wrap;
 */
 
 /*Redes*/
-
-
 
 /*MEDIA QUERIES*/
 
@@ -341,7 +331,6 @@ flex-wrap: wrap;
     display: grid;
     grid-template-columns: repeat(1, 9fr);
     grid-gap: 50px;
-
   }
   p {
     line-height: 1.5;
