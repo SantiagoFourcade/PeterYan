@@ -150,7 +150,7 @@ img {
   text-decoration: underline;
   text-decoration-color: orangered;
   font-size: 2.4rem;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 .galeria {
   width: 85%;
@@ -191,7 +191,7 @@ flex-wrap: wrap;
 }
 */
 
-/*Redes*/
+
 
 /*MEDIA QUERIES*/
 
