@@ -12,18 +12,24 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600&family=Mukta:wght@200;300;400;600;800&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-        <!--Bootstrap-->
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-        crossorigin="anonymous"
-      />
-      <!--CDN Font awesome-->
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--CDN Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!--Animaciones-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!--Mi CSS-->
     <link rel="stylesheet" href="estilos.css" />
     <title>Peter Yan Galeria</title>
@@ -39,7 +45,7 @@
       -->
       <nav class="nav">
         <div class="navContainer">
-          <a href="./index.html"><h1 class="navLogo">Peter Yan</h1></a>
+          <a href="./index.html"><h1 class="navLogo animate__animated animate__rotateIn">Peter Yan</h1></a>
 
           <label for="menu" class="navLabel">
             <img src="./menu.svg" alt="nav icon" class="navImg" />
@@ -54,9 +60,8 @@
         </div>
       </nav>
     </header>
-     <!--Me parece medio al pedo tener un div solo para este backgroud, tengo q encontrar una mejor manera de hacerlo-->
-     <div class="avatarPY"></div>
-   
+    <!--Me parece medio al pedo tener un div solo para este backgroud, tengo q encontrar una mejor manera de hacerlo-->
+    <div class="avatarPY"></div>
 
     <!--Me gustaria un albun con miniaturas seleccionables para ver el tamaño real, pero por ahora estos son alguno de los temas-->
     <h2 class="titulo">Pescador Cormoran, China</h2>
@@ -228,11 +233,29 @@
             />
 
             <ul class="list-unstyled">
-              <li class="my-2"><a href="./index.html" class="text-decoration-none">Inicio</a></li>
-              <li class="my-2"><a href="./Biografia.html" class="text-decoration-none">Biografia</a></li>
-              <li class="my-2"><a href="./Entrevista.html" class="text-decoration-none">Entrevista</a></li>
-              <li class="my-2"><a href="./Galeria.html" class="text-decoration-none">Galeria</a></li>
-              <li class="my-2"><a href="./Contacto.html" class="text-decoration-none">Contacto</a></li>
+              <li class="my-2">
+                <a href="./index.html" class="text-decoration-none">Inicio</a>
+              </li>
+              <li class="my-2">
+                <a href="./Biografia.html" class="text-decoration-none"
+                  >Biografia</a
+                >
+              </li>
+              <li class="my-2">
+                <a href="./Entrevista.html" class="text-decoration-none"
+                  >Entrevista</a
+                >
+              </li>
+              <li class="my-2">
+                <a href="./Galeria.html" class="text-decoration-none"
+                  >Galeria</a
+                >
+              </li>
+              <li class="my-2">
+                <a href="./Contacto.html" class="text-decoration-none"
+                  >Contacto</a
+                >
+              </li>
             </ul>
           </div>
 
@@ -244,21 +267,33 @@
             />
 
             <ul class="list-unstyled text-light">
-              <li class="my-2"><i class="fas fa-home me-3"></i>PO BOX 311, Chadstone Centre VIC 3148 Australia</li>
-              <li class="my-2"><i class="fas fa-envelope me-3"></i>support@peteryanstudio.com</li>
-              <li class="my-2"><i class="fas fa-map-marker-alt me-3"></i>Maps</li>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12596.1433234357!2d145.09130409452655!3d-37.88284473993507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66a84369ae825%3A0x1c045678462e3870!2sJordanville%20Victoria%203148%2C%20Australia!5e0!3m2!1ses-419!2sar!4v1638415328974!5m2!1ses-419!2sar" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-             </ul>
+              <li class="my-2">
+                <i class="fas fa-home me-3"></i>PO BOX 311, Chadstone Centre VIC
+                3148 Australia
+              </li>
+              <li class="my-2">
+                <i class="fas fa-envelope me-3"></i>support@peteryanstudio.com
+              </li>
+              <li class="my-2">
+                <i class="fas fa-map-marker-alt me-3"></i>Maps
+              </li>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12596.1433234357!2d145.09130409452655!3d-37.88284473993507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66a84369ae825%3A0x1c045678462e3870!2sJordanville%20Victoria%203148%2C%20Australia!5e0!3m2!1ses-419!2sar!4v1638415328974!5m2!1ses-419!2sar"
+                width="200"
+                height="150"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </ul>
           </div>
         </div>
       </div>
 
-      <div class="footer-copyright text-center text-light py-3">
+      <div class="footer-copyright text-center text-light py-3 fs-6">
         <p>© 2021 Mi primer proyecto PY | CABA, Argentina ❤️</p>
         <p>Diseñado x Santiago Fourcade</p>
       </div>
-
-     
     </footer>
 
     <script
