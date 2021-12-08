@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  /*padding: 0 1 0.5rem;*/
 }
 footer {
   margin-top: 25%;
@@ -20,8 +19,6 @@ p {
   font-size: 25px;
   font-style: italic;
 }
-
-/*contenedores*/
 
 section {
   line-height: 1.5;
@@ -212,11 +209,13 @@ contact-form form button:focus {
 
 .containerArticulo {
   width: 60%;
-
+  
   display: grid;
   grid-template-columns: repeat(2, 4fr);
   grid-gap: 50px;
+  align-items: center;
 }
+
 .containerEntrevista {
   width: 100%;
 
@@ -343,9 +342,18 @@ flex-wrap: wrap;
   }
   .contact-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-column: 2 / 1;
   }
- 
+  .contact-form form {
+    display: grid;
+    grid-column: 2 / 1;
+  }
+
+  .contact-form form p {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 524px) and (max-width: 698px) {
   .galeriaItem:nth-of-type(odd) {
@@ -397,7 +405,7 @@ flex-wrap: wrap;
   }
   .contact-wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-column: 2 / 1;
   }
 }
 /*A Solo en esta media hay un instante entre el 698 y el 699 en el que las imagenes se me rompen*/
@@ -449,9 +457,8 @@ flex-wrap: wrap;
   }
   .contact-wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-column: 2 / 1;
   }
-
 }
 @media screen and (min-width: 874px) and (max-width: 1048px) {
   .galeriaItem:nth-of-type(4n + 1) {
