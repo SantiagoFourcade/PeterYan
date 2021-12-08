@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  padding: 0 1 0.5rem;
+  /*padding: 0 1 0.5rem;*/
 }
 footer {
   margin-top: 25%;
@@ -340,9 +340,6 @@ flex-wrap: wrap;
   }
   h3 {
     font-size: 15px;
-  }
-  body {
-    padding: 0 4rem;
   }
   .contact-wrapper {
     display: grid;
