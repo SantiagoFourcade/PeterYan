@@ -1,7 +1,3 @@
-html {
-  background-color: rgb(252, 252, 252);
-  /*background: linear-gradient(to bottom, #000000, #696964);*/
-}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -12,9 +8,9 @@ footer {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
-  color: rgb(179, 79, 43);
+  color: white
 }
 p {
   line-height: 1.5;
@@ -43,7 +39,7 @@ Nav
 */
 
 .nav {
-  background-color: black;
+ /* background-color: rgb(87, 134, 87);*/
   height: 80px;
   color: white;
 }
@@ -112,11 +108,104 @@ Nav
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 25px;
-  color: rgb(247, 123, 8);
+  
   font-style: italic;
 }
 
 /*Contacto*/
+
+* {
+  box-sizing: border-box;
+}
+.content {
+max-width: 1170px;
+margin-left: auto;
+margin-right: auto;
+padding: 1.5rem;
+
+}
+
+.logo {
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+.logo span {
+  color: orangered;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+  padding: 1rem;
+}
+
+.contact-form {
+  background: #222222;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+  grid-column: 1 / 3;
+}
+
+.contact-form form {
+  margin: 0;
+  padding: 1rem;
+}
+
+.contact-form form button, .contact-form form input, .contact-form form textarea {
+  width: 100%;
+  padding: .7rem;
+  border: none;
+  background: none;
+  outline: 0;
+  color: white;
+  border-bottom: 1px solid orangered;
+}
+
+.contact-form form button {
+  background: orangered;
+  color: black;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.contact-form form button:hover, contact-form form button:focus {
+  background: orangered;
+  color: white;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info {
+  background: #000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+ padding: .3rem;
+}
+
+
+
 
 /*Biografia y Entrevista*/
 
@@ -148,7 +237,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 5px;
   text-decoration: underline;
-  text-decoration-color: orangered;
+  text-decoration-color: white;
   font-size: 2.4rem;
   /*margin-top: 50px;*/
 }
@@ -246,6 +335,28 @@ flex-wrap: wrap;
     font-size: 15px;
     font-style: italic;
   }
+  .titulo {
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  body {
+    padding: 0 4rem;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact-wrapper > * {
+  padding: 2rem;
+  }
+  .contact-info h4, .contact-info ul, .contact-info p {
+    padding: 1rem;
+  }
 }
 @media screen and (min-width: 524px) and (max-width: 698px) {
   .galeriaItem:nth-of-type(odd) {
@@ -342,6 +453,19 @@ flex-wrap: wrap;
     font-weight: 300;
     font-size: 20px;
     font-style: italic;
+  }
+  body {
+    padding: 0 4rem;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+  padding: 2rem;
+  }
+  .contact-info h4, .contact-info ul, .contact-info p {
+    padding: 1rem;
   }
 }
 @media screen and (min-width: 874px) and (max-width: 1048px) {

@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="estilos.css" />
     <title>Peter Yan Contacto</title>
   </head>
-  <body>
+  <body class="bg-dark text-light">
     <header>
       <!-- <a href="./index.html">
         <img
@@ -42,7 +42,7 @@
           alt="Logo"
       /></a>
     -->
-      <nav class="nav">
+      <nav class="nav bg-success">
         <div class="navContainer">
           <a href="./index.html"><h1 class="navLogo animate__animated animate__rotateIn">Peter Yan</h1></a>
 
@@ -67,38 +67,88 @@
     <!--Prototipo de formulario-->
 
     <section>
-      <h2>Contacto</h2>
-      <form action="/" method="post" class="contacto">
-        <fieldset>
-          <legend>Formulario de contacto</legend>
-          <label for="Nombre">Nombre:</label>
-          <input id="Nombre" type="text" />
-          <br />
-          <br />
+      <h2 class="titulo">Contacto</h2>
 
-          <label for="Mail">Mail:</label>
-          <input type="email" name="Mail" id="Mail" />
-          <br />
-          <br />
+<div class="content">
+<h1 class="logo">Hable<span>Mos</span></h1>
+<div class="contact-wrapper">
+<div class="contact-form">
+  <h3>Hablemos</h3>
+  <form action="">
+    <p>
+      <label for="Nombre completo">Nombre Completo</label>
+      <input type="text" name="Nombre Completo" id="Nombre completo">
+    </p>
+    <p>
+      <label>Email</label>
+      <input type="email" name="Email">
+    </p>
+    <p>
+      <label>Telefono</label>
+      <input type="tel" name="phone">
+    </p>
+    <p>
+      <label>Alias</label>
+      <input type="text" name="Alias">
+    </p>
+    <p classs="block">
+      <label>Comentario</label>
+      <textarea name="Comentario" rows="10"></textarea>
+    </p>
+    <p class="block">
+      <button type="submit">
+        Enviar
+      </button>
+    </p>
+  </form>
+</div>
+<div class="contact-info">
+  <h4>Info de contacto</h4>
+<ul>
+  <li><i class="fas fa-home me-3"></i>PO BOX 311, Chadstone Centre VIC 3148 Australia</li>
+  <li><i class="fas fa-envelope me-3"></i>support@peteryanstudio.com</li>
+</ul>
 
-          <label for="Comentario">Comentario:</label>
-          <input type="text" name="Comentario" id="Comentario" />
-          <br />
-          <br />
+<p>
+  Company.com
+</p>
 
-          <select name="Resolucion">
-            <option value="3840X2160">UHD</option>
-            <option value="1920X1080">FHD</option>
-            <option value="1280X720">HD</option>
-          </select>
-          <br />
-          <br />
+</div>
+</div>
+</div>
 
-          <input type="submit" value="Enviar Formulario" />
-          <input type="reset" value="Resetear Campos" />
-        </fieldset>
-      </form>
-    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--Bootstrap Footer-->
     <footer class="page-footer bg-dark">
