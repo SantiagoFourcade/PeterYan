@@ -27,9 +27,6 @@ aside {
   display: inline-block;
   top: 200px; }
 
-/*
-  Nav
-  */
 .nav {
   color: white;
   height: 80px; }
@@ -81,7 +78,6 @@ aside {
 .navInput {
   display: none; }
 
-/*Presentacion*/
 .avatarPY {
   background-image: url(../Galeria/Logo/Principal.jpg);
   background-position: center;
@@ -96,7 +92,6 @@ aside {
   font-size: 25px;
   font-style: italic; }
 
-/*Contacto*/
 * {
   box-sizing: border-box; }
 
@@ -160,7 +155,6 @@ aside {
     text-align: center;
     margin: 0 0 1rem 0; }
 
-/*Biografia y Entrevista*/
 .containerArticulo {
   width: 60%;
   display: grid;
@@ -174,7 +168,6 @@ aside {
   grid-template-columns: repeat(2, 9fr);
   grid-gap: 50px; }
 
-/*Mini Galeriia Index*/
 img {
   width: 100%;
   height: 100%;
@@ -216,7 +209,6 @@ img {
 .multimedia {
   padding-top: 200px; }
 
-/*MEDIA QUERIES*/
 @media screen and (min-width: 320px) and (max-width: 523px) {
   .galeriaItem:first-of-type {
     grid-column: 1 / span 2; }

@@ -1,0 +1,16 @@
+.containerArticulo {
+    width: 60%;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-gap: 50px;
+    align-items: center;
+  }
+  
+  .containerEntrevista {
+    width: 100%;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 9fr);
+    grid-gap: 50px;
+  }
