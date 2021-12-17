@@ -1,9 +1,20 @@
+@mixin img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1000px;
+  }
+
 .avatarPY {
     background-image: url(../Galeria/Logo/Principal.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 600px;
+   @include img;
+  }
+
+  .avatarGaleria {
+    background-image: url(../Galeria/Pescador/09.jpg);
+    @include img;
+    margin-top: 250px;
+    margin-bottom: auto;
   }
   .pPresentacion {
     line-height: 1.5;
