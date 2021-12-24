@@ -174,14 +174,14 @@ header {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 4fr);
-  grid-gap: 50px;
-  align-items: center; }
+  grid-gap: 50px; }
 
 .containerEntrevista {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 9fr);
-  grid-gap: 50px; }
+  grid-gap: 50px;
+  justify-content: center; }
 
 img {
   width: 100%;
@@ -220,7 +220,11 @@ img {
     grid-column: 2 / span 2; }
 
 .multimedia {
-  padding-top: 200px; }
+  margin-top: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 60px; }
 
 @media screen and (min-width: 320px) and (max-width: 523px) {
   .galeriaItem:first-of-type {
