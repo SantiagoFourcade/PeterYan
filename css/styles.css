@@ -76,7 +76,9 @@ header {
     clip-path: var(--clippy);
     transition: clip-path 0.3s; }
   .navItem:hover {
-    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    color: white;
+    transform: scale(0.9); }
 
 /*.navImput:checked + .navMenu {
   }*/
@@ -174,7 +176,8 @@ header {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 4fr);
-  grid-gap: 50px; }
+  grid-gap: 50px;
+  justify-content: center; }
 
 .containerEntrevista {
   width: 100%;

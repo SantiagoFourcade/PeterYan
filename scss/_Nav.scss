@@ -20,6 +20,7 @@
     text-decoration-color: white;
     color: white;
     font-family: "Mukta", sans-serif;
+   
   }
   .navMenu {
     display: grid;
@@ -29,9 +30,10 @@
   .navItem {
     color: white;
     text-decoration: none;
+    
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
-    
+  
 
     &::after {
         content: "";
@@ -46,7 +48,13 @@
 
     &:hover {
         --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        color: white;
+        transform: scale(.9);
     }
+
+   
+
+   
   }
  
   /*.navImput:checked + .navMenu {
