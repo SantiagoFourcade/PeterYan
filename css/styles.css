@@ -148,9 +148,9 @@ header {
       background: none;
       outline: 0;
       color: white;
-      border-bottom: 1px solid orangered; }
+      border-bottom: 1px solid grey; }
     .contact-form form button {
-      background: orangered;
+      background: grey;
       color: black;
       border: 0;
       text-transform: uppercase;
@@ -177,14 +177,16 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 4fr);
   grid-gap: 50px;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 
 .containerEntrevista {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 9fr);
   grid-gap: 50px;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 
 img {
   width: 100%;
