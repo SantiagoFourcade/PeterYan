@@ -3,26 +3,39 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 1000px;
-  }
+}
 
 .avatarPY {
-    background-image: url(../Galeria/Logo/Principal.jpg);
-   @include img;
-  }
+  background-image: url(../Galeria/Logo/Principal.jpg);
+  @include img;
+}
+.imgGaleria {
+  background-image: url(../Galeria/Logo/3.jpg);
+  @include img;
+}
+.imgBiografia {
+  background-image: url(../Galeria/Logo/13.jpg);
+  @include img;
+}
+.imgContacto {
+  background-image: url(../Galeria/Logo/11.jpg);
+  @include img;
+}
+.imgEntrevista {
+  background-image: url(../Galeria/Logo/12.jpg);
+  @include img;
+}
+.avatarGaleria {
+  background-image: url(../Galeria/Pescador/09.jpg);
+  @include img;
+  margin-top: 250px;
+  margin-bottom: auto;
+}
+.pPresentacion {
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
 
-  .avatarGaleria {
-    background-image: url(../Galeria/Pescador/09.jpg);
-    @include img;
-    margin-top: 250px;
-    margin-bottom: auto;
-  }
-  .pPresentacion {
-    line-height: 1.5;
-    font-family: "Inter", sans-serif;
-    font-weight: 200;
-    font-size: 25px;
-  
-    font-style: italic;
-  }
-
-  
+  font-style: italic;
+}

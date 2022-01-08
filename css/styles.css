@@ -93,6 +93,34 @@ header {
   background-size: cover;
   padding-bottom: 1000px; }
 
+.imgGaleria {
+  background-image: url(../Galeria/Logo/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1000px; }
+
+.imgBiografia {
+  background-image: url(../Galeria/Logo/13.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1000px; }
+
+.imgContacto {
+  background-image: url(../Galeria/Logo/11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1000px; }
+
+.imgEntrevista {
+  background-image: url(../Galeria/Logo/12.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1000px; }
+
 .avatarGaleria {
   background-image: url(../Galeria/Pescador/09.jpg);
   background-position: center;
