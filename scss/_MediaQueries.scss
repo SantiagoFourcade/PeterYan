@@ -1,330 +1,326 @@
 @media screen and (min-width: 320px) and (max-width: 523px) {
-    .galeriaItem:first-of-type {
-      grid-column: 1 / span 2;
-    }
-    .galeria {
-      grid-auto-rows: 282px;
-    }
-    .navLabel {
-      display: block;
-      cursor: pointer;
-    }
-    .navMenu {
-      position: fixed;
-      top: 80px;
-      bottom: 0;
-      background-color: orange;
-      width: 100%;
-      left: 0;
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: column;
-      align-items: center;
-      clip-path: circle(0 at center);
-      transition: clip-path 1s ease-in-out;
-    }
-    .navInput:checked + .navMenu {
-      clip-path: circle(100% at center);
-    }
-    .containerArticulo {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 4fr);
-      grid-gap: 50px;
-    }
-    .containerEntrevista {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 9fr);
-      grid-gap: 50px;
-  
-      justify-items: center;
-    }
-    p {
-      line-height: 1.5;
-      font-family: "Inter", sans-serif;
-      font-weight: 300;
-      font-size: 15px;
-      font-style: italic;
-    }
-    .titulo {
-      font-size: 20px;
-    }
-    .logo {
-      font-size: 25px;
-    }
-    h3 {
-      font-size: 15px;
-    }
-    .contact-wrapper {
-      display: grid;
-      grid-column: 2 / 1;
-    }
-    .contact-form form {
-      display: grid;
-      grid-column: 2 / 1;
+  .galeriaItem:first-of-type {
+    grid-column: 1 / span 2;
+  }
+  .galeria {
+    grid-auto-rows: 282px;
+  }
+  .navLabel {
+    display: block;
+    cursor: pointer;
+  }
+  .navMenu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background-color: orange;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+  }
+  .navInput:checked + .navMenu {
+    clip-path: circle(100% at center);
+  }
+  .containerArticulo {
+    width: 85%;
 
-      p {
-        margin: 0;
-        padding: 0.5rem;
-        font-size: 12px; 
-      }
-    }
-  
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    grid-gap: 50px;
   }
-  @media screen and (min-width: 524px) and (max-width: 698px) {
-    .galeriaItem:nth-of-type(odd) {
-      grid-column: 2 / span 2;
-    }
-    .navLabel {
-      display: block;
-      cursor: pointer;
-    }
-    .navMenu {
-      position: fixed;
-      top: 80px;
-      bottom: 0;
-      background-color: orange;
-      width: 100%;
-      left: 0%;
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: column;
-      align-items: center;
-      clip-path: circle(0 at center);
-      transition: clip-path 1s ease-in-out;
-    }
-    .navInput:checked + .navMenu {
-      clip-path: circle(100% at center);
-    }
-    .containerArticulo {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 4fr);
-      grid-gap: 50px;
-    }
-    .containerEntrevista {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 9fr);
-      grid-gap: 50px;
-  
-      justify-items: center;
-    }
+  .containerEntrevista {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 9fr);
+    grid-gap: 50px;
+
+    justify-items: center;
+  }
+  p {
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+  }
+  .titulo {
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+
+  .contact-form form {
+    display: grid;
+    grid-column: auto;
+
     p {
-      line-height: 1.5;
-      font-family: "Inter", sans-serif;
-      font-weight: 300;
-      font-size: 20px;
-      font-style: italic;
-    }
-    .contact-wrapper {
-      display: grid;
-      grid-column: 2 / 1;
+      margin: 0;
+      padding: 0.5rem;
+      font-size: 12px;
     }
   }
-  /*A Solo en esta media hay un instante entre el 698 y el 699 en el que las imagenes se me rompen*/
-  @media screen and (min-width: 699px) and (max-width: 873px) {
-    .galeriaItem:nth-of-type(3n + 1) {
-      grid-column: 2 / span 2;
-    }
-    .navLabel {
-      display: block;
-      cursor: pointer;
-    }
-    .navMenu {
-      position: fixed;
-      top: 80px;
-      bottom: 0;
-      background-color: orange;
-      width: 100%;
-      left: 0%;
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: column;
-      align-items: center;
-      clip-path: circle(0 at center);
-      transition: clip-path 1s ease-in-out;
-    }
-    .navInput:checked + .navMenu {
-      clip-path: circle(100% at center);
-    }
-    .containerArticulo {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 4fr);
-      grid-gap: 50px;
-    }
-    .containerEntrevista {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 9fr);
-      grid-gap: 50px;
-    }
-    p {
-      line-height: 1.5;
-      font-family: "Inter", sans-serif;
-      font-weight: 300;
-      font-size: 20px;
-      font-style: italic;
-    }
-    .contact-wrapper {
-      display: grid;
-      grid-column: 2 / 1;
-    }
+}
+@media screen and (min-width: 524px) and (max-width: 698px) {
+  .galeriaItem:nth-of-type(odd) {
+    grid-column: 2 / span 2;
   }
-  @media screen and (min-width: 874px) and (max-width: 1048px) {
-    .galeriaItem:nth-of-type(4n + 1) {
-      grid-column: 2 / span 2;
-    }
-    .navLabel {
-      display: block;
-      cursor: pointer;
-    }
-    .navMenu {
-      position: fixed;
-      top: 80px;
-      bottom: 0;
-      background-color: orange;
-      width: 100%;
-      left: 0%;
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: column;
-      align-items: center;
-      clip-path: circle(0 at center);
-      transition: clip-path 1s ease-in-out;
-    }
-    .navInput:checked + .navMenu {
-      clip-path: circle(100% at center);
-    }
-    .containerArticulo {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 4fr);
-      grid-gap: 50px;
-    }
-    .containerEntrevista {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 9fr);
-      grid-gap: 50px;
-  
-      justify-items: center;
-    }
-    p {
-      line-height: 1.5;
-      font-family: "Inter", sans-serif;
-      font-weight: 300;
-      font-size: 20px;
-      font-style: italic;
-    }
-    .contact-wrapper {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-    }
+  .navLabel {
+    display: block;
+    cursor: pointer;
   }
-  @media screen and (min-width: 1049px) and (max-width: 1224px) {
-    .galeriaItem:nth-of-type(5n + 1) {
-      grid-column: 2 / span 2;
-    }
-    .containerArticulo {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 4fr);
-      grid-gap: 50px;
-    }
-    .containerEntrevista {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 9fr);
-      grid-gap: 50px;
-  
-      justify-items: center;
-    }
-    p {
-      line-height: 1.5;
-      font-family: "Inter", sans-serif;
-      font-weight: 300;
-      font-size: 20px;
-      font-style: italic;
-    }
-    .contact-wrapper {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-    }
+  .navMenu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background-color: orange;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
   }
-  @media screen and (min-width: 1225px) and (max-width: 1399px) {
-    .galeriaItem:nth-of-type(6n + 1) {
-      grid-column: 2 / span 2;
-    }
-    .containerArticulo {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 4fr);
-      grid-gap: 50px;
-    }
-    .containerEntrevista {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(1, 9fr);
-      grid-gap: 50px;
-  
-      justify-items: center;
-    }
-    p {
-      line-height: 1.5;
-      font-family: "Inter", sans-serif;
-      font-weight: 300;
-      font-size: 20px;
-      font-style: italic;
-    }
-    .contact-wrapper {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-    }
+  .navInput:checked + .navMenu {
+    clip-path: circle(100% at center);
   }
-  @media screen and (min-width: 1400px) {
-    .galeriaItem:nth-of-type(7n + 1) {
-      grid-column: 2 / span 2;
-    }
-    .containerArticulo {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(2, 4fr);
-      grid-gap: 50px;
-    }
-    .containerEntrevista {
-      width: 85%;
-  
-      display: grid;
-      grid-template-columns: repeat(2, 9fr);
-      grid-gap: 50px;
-  
-      justify-items: center;
-    }
-    p {
-      line-height: 1.5;
-      font-family: "Inter", sans-serif;
-      font-weight: 300;
-      font-size: 20px;
-      font-style: italic;
-    }
-    .contact-wrapper {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-    }
+  .containerArticulo {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    grid-gap: 50px;
   }
+  .containerEntrevista {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 9fr);
+    grid-gap: 50px;
+
+    justify-items: center;
+  }
+  p {
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-column: 2 / 1;
+  }
+}
+/*A Solo en esta media hay un instante entre el 698 y el 699 en el que las imagenes se me rompen*/
+@media screen and (min-width: 699px) and (max-width: 873px) {
+  .galeriaItem:nth-of-type(3n + 1) {
+    grid-column: 2 / span 2;
+  }
+  .navLabel {
+    display: block;
+    cursor: pointer;
+  }
+  .navMenu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background-color: orange;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+  }
+  .navInput:checked + .navMenu {
+    clip-path: circle(100% at center);
+  }
+  .containerArticulo {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    grid-gap: 50px;
+  }
+  .containerEntrevista {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 9fr);
+    grid-gap: 50px;
+  }
+  p {
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-column: 2 / 1;
+  }
+}
+@media screen and (min-width: 874px) and (max-width: 1048px) {
+  .galeriaItem:nth-of-type(4n + 1) {
+    grid-column: 2 / span 2;
+  }
+  .navLabel {
+    display: block;
+    cursor: pointer;
+  }
+  .navMenu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background-color: orange;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+  }
+  .navInput:checked + .navMenu {
+    clip-path: circle(100% at center);
+  }
+  .containerArticulo {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    grid-gap: 50px;
+  }
+  .containerEntrevista {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 9fr);
+    grid-gap: 50px;
+
+    justify-items: center;
+  }
+  p {
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media screen and (min-width: 1049px) and (max-width: 1224px) {
+  .galeriaItem:nth-of-type(5n + 1) {
+    grid-column: 2 / span 2;
+  }
+  .containerArticulo {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    grid-gap: 50px;
+  }
+  .containerEntrevista {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 9fr);
+    grid-gap: 50px;
+
+    justify-items: center;
+  }
+  p {
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media screen and (min-width: 1225px) and (max-width: 1399px) {
+  .galeriaItem:nth-of-type(6n + 1) {
+    grid-column: 2 / span 2;
+  }
+  .containerArticulo {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    grid-gap: 50px;
+  }
+  .containerEntrevista {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(1, 9fr);
+    grid-gap: 50px;
+
+    justify-items: center;
+  }
+  p {
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .galeriaItem:nth-of-type(7n + 1) {
+    grid-column: 2 / span 2;
+  }
+  .containerArticulo {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-gap: 50px;
+  }
+  .containerEntrevista {
+    width: 85%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 9fr);
+    grid-gap: 50px;
+
+    justify-items: center;
+  }
+  p {
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
