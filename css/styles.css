@@ -309,12 +309,12 @@ img {
   h3 {
     font-size: 15px; }
   .contact-form form {
-    display: grid;
-    grid-column: auto; }
+    display: flex;
+    flex-direction: column; }
     .contact-form form p {
       margin: 0;
       padding: 0.5rem;
-      font-size: 12px; } }
+      font-size: 20px; } }
 
 @media screen and (min-width: 524px) and (max-width: 698px) {
   .galeriaItem:nth-of-type(odd) {
@@ -354,9 +354,13 @@ img {
     font-weight: 300;
     font-size: 20px;
     font-style: italic; }
-  .contact-wrapper {
-    display: grid;
-    grid-column: 2 / 1; } }
+  .contact-form form {
+    display: flex;
+    flex-direction: column; }
+    .contact-form form p {
+      margin: 0;
+      padding: 0.5rem;
+      font-size: 25px; } }
 
 /*A Solo en esta media hay un instante entre el 698 y el 699 en el que las imagenes se me rompen*/
 @media screen and (min-width: 699px) and (max-width: 873px) {
